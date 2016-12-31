@@ -1,16 +1,28 @@
 {
   "name": "numbers-and-strings-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "- fork and clone this repo - `npm install` - run your tests by running `mocha` from the command line",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "devDependenhies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
-  }
+  },
+  "directories": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethea28/numbers-and-strings-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bethea28/numbers-and-strings-testing/issues"
+  },
+  "homepage": "https://github.com/bethea28/numbers-and-strings-testing#readme"
 }
